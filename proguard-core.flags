@@ -1,0 +1,2 @@
+# Feelslike
+-keep class com.serasa.settings.**
