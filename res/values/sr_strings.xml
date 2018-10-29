@@ -19,8 +19,8 @@
     <!-- sr. version -->
     <string name="sr_version">sr revision</string>
 
-    <!-- CAF Revision -->
-    <string name="caf_rev">CAF revision</string>
+    <!-- CLO Revision -->
+    <string name="clo_rev">CLO revision</string>
 
     <!-- sr. fake toolbar -->
     <string name="sr_firmware_info">Firmware information</string>
