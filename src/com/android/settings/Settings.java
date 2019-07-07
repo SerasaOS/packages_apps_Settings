@@ -453,4 +453,5 @@ public class Settings extends SettingsActivity {
      * Activity for The Feelslike
      */
     public static class SerasaSettingsActivity extends SettingsActivity {}
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }

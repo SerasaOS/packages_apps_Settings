@@ -182,6 +182,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.serasa.settings.SerasaSettings;
 
 import con.android.settings.wifi.tether.WifiTetherClientManager;
+import com.serasa.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -351,7 +352,8 @@ public class SettingsGateway {
             TurnScreenOnSettings.class.getName(),
             TurnScreenOnDetails.class.getName(),
             SerasaSettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -395,5 +397,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.SerasaSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
