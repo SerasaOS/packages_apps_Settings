@@ -5,7 +5,9 @@
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,10 +17,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- sr. version -->
-    <string name="sr_version">SR revision</string>
+    <string name="sr_version">sr revision</string>
 
-    <!-- CLO Revision -->
-    <string name="clo_rev">CLO revision</string>
+    <!-- CAF Revision -->
+    <string name="caf_rev">CAF revision</string>
 
     <!-- sr. fake toolbar -->
     <string name="sr_firmware_info">Firmware information</string>
@@ -29,6 +31,7 @@
     <string name="sr_dashboard_greet">Hello</string>
     <string name="sr_dashboard_device">About device</string>
     <string name="sr_dashboard_account">Account</string>
+    <string name="sr_dashboard_szrypr">Szrypr</string>
     <string name="sr_dashboard_network">Internet</string>
     <string name="sr_dashboard_conectivity">Device connect</string>    
     <string name="sr_dashboard_display">Display</string>
