@@ -26,7 +26,7 @@ import com.android.settings.core.BasePreferenceController;
 public class srVersionPreferenceController extends BasePreferenceController {
 
     @VisibleForTesting
-    private static final String SR_VERSION_PROP = "ro.srroid.build.number";
+    private static final String SR_VERSION_PROP = "ro.serasa.build.number";
 
     public srVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
