@@ -14,7 +14,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- serasa version -->
-    <string name="sr_version">SR version</string>
+    <string name="sr_version">SR revision</string>
 
     <!-- CLO Revision -->
     <string name="clo_rev">CLO revision</string>

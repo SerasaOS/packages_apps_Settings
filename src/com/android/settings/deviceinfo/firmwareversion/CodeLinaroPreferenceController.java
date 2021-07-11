@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019 The Android Open Source Project
+ * Copyright (C) 2017 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,78 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
 package com.android.settings.deviceinfo.firmwareversion;
 
 import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
-import android.text.TextUtils;
-import android.util.Log;
-import android.os.Build;
-import android.os.SystemClock;
 import android.os.SystemProperties;
-import android.os.UserHandle;
-import android.os.UserManager;
-
 import androidx.annotation.VisibleForTesting;
-import androidx.preference.Preference;
 
 import com.android.settings.R;
-import com.android.settings.Utils;
-import com.android.settingslib.RestrictedLockUtils;
-import com.android.settingslib.RestrictedLockUtilsInternal;
-
-import androidx.preference.Preference;
-
 import com.android.settings.core.BasePreferenceController;
-import com.android.settingslib.DeviceInfoUtils;
 
 public class CodeLinaroPreferenceController extends BasePreferenceController {
 
-    private static final String CLO_TAG = "ro.clo.revision.tag";
-    private static final String TAG = "SecurityPatchCtrl";
-    private static final Uri INTENT_URI_DATA = Uri.parse(
-            "https://www.codelinaro.org/");
+    @VisibleForTesting
+    private static final String CLO_REV = "ro.clo.revision.tag";
 
-    private final PackageManager mPackageManager;
-    private final String mCurrentPatch;
-
-    public CodeLinaroPreferenceController(Context context, String key) {
-        super(context, key);
-        mPackageManager = mContext.getPackageManager();
-        mCurrentPatch = DeviceInfoUtils.getSecurityPatch();
+    public CodeLinaroPreferenceController(Context context, String preferenceKey) {
+        super(context, preferenceKey);
     }
 
     @Override
     public int getAvailabilityStatus() {
-        return !TextUtils.isEmpty(mCurrentPatch)
-                ? AVAILABLE : CONDITIONALLY_UNAVAILABLE;
+        return AVAILABLE;
     }
 
     @Override
     public CharSequence getSummary() {
-        String CLOTag = SystemProperties.get(CLO_TAG);
-        return CLOTag;
-    }
-
-    @Override
-    public boolean handlePreferenceTreeClick(Preference preference) {
-        if (!TextUtils.equals(preference.getKey(), getPreferenceKey())) {
-            return false;
-        }
-
-        final Intent intent = new Intent();
-        intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(INTENT_URI_DATA);
-        if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
-            // Don't send out the intent to stop crash
-            Log.w(TAG, "queryIntentActivities() returns empty");
-            return true;
-        }
-
-        mContext.startActivity(intent);
-        return true;
+        return SystemProperties.get(CLO_REV,
+                mContext.getString(R.string.device_info_default));
     }
 }
