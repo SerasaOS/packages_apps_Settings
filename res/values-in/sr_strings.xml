@@ -27,6 +27,7 @@
     <string name="sr_device_owner">Pemilik</string>
     <string name="sr_legal_information_summary">Informasi lisensi legalitas</string>
     <string name="sr_regulatory_summary">Informasi regulator</string>
+    <string name="sr_wifi_saved">Jaringan tersimpan</string>
 
     <!-- sr. Preferences Category -->
     <string name="sr_about_phone_owner_cat">Informasi pengguna</string>
