@@ -16,5 +16,5 @@
 -->
 <resources>
     <color name="sr_pref_ripple">#1f000000</color>
-    <color name="sr_pref_card_color">#ECECEC</color>
+    <color name="sr_pref_card_color">#F3F4F6</color>
 </resources>
