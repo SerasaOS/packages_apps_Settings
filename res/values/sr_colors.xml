@@ -15,6 +15,9 @@
      limitations under the License.
 -->
 <resources>
-    <color name="sr_pref_ripple">#1f000000</color>
-    <color name="sr_pref_card_color">#F3F4F6</color>
+
+     <!-- sr. Framework -->
+     <color name="sr_pref_ripple">#1f000000</color>
+     <color name="sr_pref_card_color">#F3F4F6</color>
+     
 </resources>
