@@ -15,18 +15,15 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- Feelslike -->
-    <string name="feelslike_title">Feelslike</string>
+    <string name="feelslike_title">Voelt als</string>
     <string name="build_tweaks_summary_title">Customizations and more !</string>
-
     <!-- SerasaOS versioning -->
     <string name="serasa_version_title">SerasaOS Version</string>
     <string name="about_device_info">Serasa Device</string>
     <string name="serasa_device_title">Device</string>
     <string name="serasa_build_version_title">Build Version</string>
     <string name="serasa_build_date_title">Build Date</string>
-
     <string name="wellbeing_title">Google Wellbeing</string>
     <string name="gesture_illustration_description">Control your device with ease.</string>
     <string name="connected_setting_description">Manage your device\'s connections.</string>
@@ -41,16 +38,13 @@
     <string name="apps_illustration_description">Manage applications installed, which are default apps, check apps with special access, enable or disable apps etc. </string>
     <string name="battery_illustration_description">Monitor battery health, usage and improve battery usage.</string>
     <string name="connectivity_category_title">connectivity</string>
-
     <string name="navbar_gesture_custom">Navigation Gestures Customizations</string>
     <string name="usercard_summary">Device owner</string>
-
-     <!-- About page -->
+    <!-- About page -->
     <string name="battery">Battery</string>
     <string name="display">Display</string>
     <string name="storage">Storage</string>
     <string name="chipset">Processor</string>
-
     <!-- About phone cards -->
     <string name="about_device_nearby">The device name can and will be seen by the nearby devices.</string>
     <string name="about_device_version_type_gapps">Pixel</string>
@@ -61,7 +55,6 @@
     <string name="about_us_info_category_title">About Us</string>
     <string name="serasa_revision">Serasa Revision</string>
     <string name="serasa_model_info">Device Information</string>
-    
     <string name="dashboard_morning1">Start your day positively!</string>
     <string name="dashboard_morning2">The Sun is up!</string>
     <string name="dashboard_morning3">A nice morning..</string>
@@ -94,7 +87,7 @@
     <string name="dashboard_random5">Howdy</string>
     <string name="dashboard_random6">What\'s up</string>
     <string name="dashboard_random_greetings1">Try to find some easter eggs!</string>
-    <string name="dashboard_random_greetings2">Choice of spices?</string>
+    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
     <string name="dashboard_random_greetings3">Try using the search bar!</string>
     <string name="dashboard_random_greetings4">Enjoy your day!</string>
     <string name="settings_random1">Searching for something?</string>
@@ -104,7 +97,6 @@
     <string name="settings_random5">Search settings</string>
     <string name="settings_random6">You can\'t find something that doesn\'t exists!</string>
     <string name="default_user">User</string>
-    
     <string name="build_status">Build Status</string>
     <string name="build_status_summary_placeholder">What\'s up?</string>
     <string name="build_is_official_title">Device is officially supported!</string>
@@ -113,22 +105,16 @@
     <string name="build_is_official_summary_oopsie">but, who made this build?</string>
     <string name="build_is_community_summary">Unofficial build by %s</string>
     <string name="build_is_community_summary_oopsie">Psst! please tell the builder that he/she forgot to add required build flags!</string>
-
     <string name="top_level_settings_title">Settings</string>
     <string name="my_device_settings">My device</string>
-
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
-
-    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
-
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
     <string name="screen_time_summary_usage_today">%1$s today</string>
-
     <!-- WiFi Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
@@ -150,15 +136,12 @@
         <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
         <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
     </plurals>
-
     <!-- APK details on App info screen -->
     <string name="app_info_install_time">Installed: %1$s</string>
     <string name="app_info_update_time">Updated: %1$s</string>
-
     <!-- Clipboard -->
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
-
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Ringtone vibration pattern</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -169,51 +152,41 @@
     <string name="pattern_custom">Custom</string>
     <string name="custom_vibration_pattern_title">Custom pattern</string>
     <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
-
     <!-- Per-channel vibration pattern -->
     <string name="notification_custom_vibrate_title">Custom vibration pattern</string>
     <string name="notification_custom_vibrate_summary">Replaces the default pattern only\nApp set pattern takes precedence</string>
     <string name="notification_custom_vibrate_slider1">Vibrate for</string>
     <string name="notification_custom_vibrate_slider2">Pause for</string>
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">In-call vibration options</string>
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-
     <!-- Three-fingers-swipe to screenshot -->
     <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
-    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take a screenshot</string> 
-
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take a screenshot</string>
     <!-- Gesture navbar length -->
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="short_label">Short</string>
     <string name="long_label">Long</string>
-
     <!-- Gesture navbar radius -->
     <string name="gesture_navbar_radius_title">Pill radius</string>
     <string name="thin_label">Thin</string>
     <string name="thick_label">Thick</string>
-
     <!-- Back gesture height -->
     <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
+    <string name="back_height_high_label">Unten</string>
     <string name="back_height_title">Back gesture height</string>
     <string name="back_height_summary">Screen height valid for back gesture</string>
-
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
-
     <!-- Back gesture haptic -->
     <string name="back_gesture_haptic_title">Back gesture haptic</string>
     <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
-
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
     <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
-
     <!-- Wifi/Bluetooth auto timeout -->
     <string name="wifi_timeout">WiFi timeout</string>
     <string name="wifi_timeout_summary">Do not automatically turn off WiFi</string>
@@ -236,22 +209,18 @@
     <string name="custom_timeout_summary_2hours">2 hours</string>
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
-
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Screenshot sound</string>
-
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Noisy notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
-
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
-
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Smart Pause</string>
     <string name="adaptive_playback_master_switch_title">Use Smart Pause</string>
-    <string name="adaptive_playback_disabled_summary">Off</string>
+    <string name="adaptive_playback_disabled_summary">Aus</string>
     <string name="adaptive_playback_intro_text">Automatically pauses media when the volume is muted and will resume automatically when volume is restored within the set time.</string>
     <string name="adaptive_playback_timeout_title">Use a timeout of</string>
     <string name="adaptive_playback_timeout_none">No timeout</string>
@@ -266,21 +235,16 @@
     <string name="adaptive_playback_timeout_5_min_summary">On (5 minutes)</string>
     <string name="adaptive_playback_timeout_10_min">10 minutes</string>
     <string name="adaptive_playback_timeout_10_min_summary">On (10 minutes)</string>
-
     <!-- Show clipboard overlay -->
     <string name="show_clipboard_overlay_title">Show clipboard overlay</string>
     <string name="show_clipboard_overlay_summary">Show an overlay in the left bottom corner of the screen when something is copied to the clipboard</string>
-
     <string name="skip_biometric_auth_confirmation_title">Skip manual confirmation</string>
-
     <!-- Per-app volume -->
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Show per-app volume button into volume dialog</string>
-
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Use floating rotate button</string>
-
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <plurals name="app_lock_summary">
@@ -302,42 +266,29 @@
     <string name="enable_protection">Enable protection</string>
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
-
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
-
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Deep sleep</string>
-
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Hide IME button space</string>
     <string name="navigation_bar_ime_space_summary">Hide IME button space below keyboard</string>
-
-        <!-- Doze on double tap -->
-    <string name="double_tap_title">Double tap</string>
-    <string name="doze_double_tap_title">Double tap to check phone</string>
-    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
-
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignore secure window flag</string>
     <string name="ignore_window_secure_summary">Remove screenshot and screenrecord limits for all apps. This can be convenient in some cases but may lead to privacy leaks.</string>
-
     <!-- AOD Schedule -->
     <string name="always_on_display_schedule_title">Always on display schedule</string>
     <string name="always_on_display_schedule_sunset">Sunset</string>
     <string name="always_on_display_schedule_sunrise">Sunrise</string>
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
-
     <!-- Battery health -->
     <string name="current_battery_capacity">Current battery capacity</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
-
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
-
     <!-- Haptics Settings -->
     <string name="haptics_settings_title">System haptics</string>
     <string name="haptics_settings_summary">Modify system haptics intensities</string>
@@ -346,7 +297,4 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
-
-    <!-- Running services - Background processes tab -->
-    <string name="background_processes_settings_title">Background processes</string>
 </resources>
