@@ -59,7 +59,7 @@
         
     <com.android.settings.widget.HomepagePreference
         android:fragment="com.serasa.settings.SerasaSettings"
-        android:icon="@drawable/ic_homepage_Serasa_rui"
+        android:icon="@drawable/ic_homepage_serasa_rui"
         android:key="top_level_feelslike"
         android:order="-130"
         android:title="@string/feelslike_title"
