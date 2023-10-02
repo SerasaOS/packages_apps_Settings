@@ -30,7 +30,7 @@ import com.android.settings.R;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.widget.LayoutPreference;
 
-public class serasa extends AbstractPreferenceController {
+public class serasaInfoPreferenceController extends AbstractPreferenceController {
 
     private static final String KEY_SERASA_INFO = "serasa_info";
     private static final String KEY_SERASA_DEVICE = "serasa_device";
