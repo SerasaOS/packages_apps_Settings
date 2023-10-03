@@ -87,7 +87,7 @@
     <string name="dashboard_random5">您好呀</string>
     <string name="dashboard_random6">怎么了</string>
     <string name="dashboard_random_greetings1">尝试找到一些复活节彩蛋！</string>
-    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings2">Time to Spices!</string>
     <string name="dashboard_random_greetings3">尝试使用搜索栏！</string>
     <string name="dashboard_random_greetings4">Want some soda?</string>
     <string name="settings_random1">正在找什么？</string>
@@ -275,6 +275,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">隐藏输入法按键空间</string>
     <string name="navigation_bar_ime_space_summary">隐藏键盘下方输入法按键空间</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略安全窗口标志</string>
     <string name="ignore_window_secure_summary">移除所有应用程序的截图和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
@@ -298,4 +302,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

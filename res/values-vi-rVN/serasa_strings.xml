@@ -87,7 +87,7 @@
     <string name="dashboard_random5">Chào bạn</string>
     <string name="dashboard_random6">Có chuyện gì vậy</string>
     <string name="dashboard_random_greetings1">Cố gắng tìm một số quả trứng Phục sinh!</string>
-    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings2">Time to Spices!</string>
     <string name="dashboard_random_greetings3">Hãy thử sử dụng thanh tìm kiếm!</string>
     <string name="dashboard_random_greetings4">Một ít soda nhé?</string>
     <string name="settings_random1">Tìm kiếm thứ gì đó?</string>
@@ -274,6 +274,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Ẩn không gian nút IME</string>
     <string name="navigation_bar_ime_space_summary">Ẩn không gian nút IME bên dưới bàn phím</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Bỏ qua cờ cửa sổ an toàn</string>
     <string name="ignore_window_secure_summary">Loại bỏ giới hạn ảnh chụp màn hình và ghi màn hình cho tất cả các ứng dụng. Điều này có thể thuận tiện trong một số trường hợp nhưng có thể dẫn đến rò rỉ quyền riêng tư.</string>
@@ -297,4 +301,6 @@
     <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
     <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
     <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>

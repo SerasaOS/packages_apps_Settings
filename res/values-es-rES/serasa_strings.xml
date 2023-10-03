@@ -277,6 +277,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Espacio bajo el teclado</string>
     <string name="navigation_bar_ime_space_summary">Ocultar botón de método de entrada debajo del teclado</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Doble toque</string>
+    <string name="doze_double_tap_title">Doble toque para comprobar el teléfono</string>
+    <string name="doze_double_tap_summary">Pulso de notificaciones con doble toque</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Ignorar limitaciones de ventana segura</string>
     <string name="ignore_window_secure_summary">Eliminar la limitación de captura y grabación de pantalla para todas las aplicaciones. Puede ser útil en algunos casos, pero puede llevar a fugas de privacidad.</string>
@@ -300,4 +304,6 @@
     <string name="brightness_slider_haptics_intensity_title">Intensidad háptica de la barra de brillo</string>
     <string name="volume_slider_haptics_intensity_title">Intensidad háptica de la barra de volumen</string>
     <string name="qs_panel_tile_haptic_intensity_title">Intensidad háptica de los ajustes rápidos</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Procesos en segundo plano</string>
 </resources>

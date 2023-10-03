@@ -87,7 +87,7 @@
     <string name="dashboard_random5">E aí</string>
     <string name="dashboard_random6">Tudo em cima</string>
     <string name="dashboard_random_greetings1">Tente encontrar algum easter egg!</string>
-    <string name="dashboard_random_greetings2">Time to LightTheNight!</string>
+    <string name="dashboard_random_greetings2">Time to Spices!</string>
     <string name="dashboard_random_greetings3">Tente usar a barra de pesquisa!</string>
     <string name="dashboard_random_greetings4">Want some soda?</string>
     <string name="settings_random1">Procurando por algo?</string>
@@ -277,6 +277,10 @@
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Espaço sob o teclado</string>
     <string name="navigation_bar_ime_space_summary">Ocultar espaço na parte inferior do teclado</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Double tap</string>
+    <string name="doze_double_tap_title">Double tap to check phone</string>
+    <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">Remover restrição de captura de tela</string>
     <string name="ignore_window_secure_summary">Remova as restrições de captura e gravação de tela para todos os aplicativos. Isso pode ser conveniente em alguns casos, mas pode facilitar o furto de dados. (Use com cautela).</string>
@@ -293,11 +297,13 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
     <!-- Haptics Settings -->
-    <string name="haptics_settings_title">System haptics</string>
-    <string name="haptics_settings_summary">Modify system haptics intensities</string>
-    <string name="back_gesture_haptic_intensity_title">Back gesture haptics intensity</string>
-    <string name="edge_scrolling_haptics_intensity_title">Edge scrolling haptics intensity</string>
-    <string name="brightness_slider_haptics_intensity_title">Brightness slider haptics intensity</string>
-    <string name="volume_slider_haptics_intensity_title">Volume slider haptics intensity</string>
-    <string name="qs_panel_tile_haptic_intensity_title">QS tile haptics intensity</string>
+    <string name="haptics_settings_title">Sistema tátil</string>
+    <string name="haptics_settings_summary">Modificar intensidade do sistema tátil</string>
+    <string name="back_gesture_haptic_intensity_title">Intensidade tátil do gesto de volta</string>
+    <string name="edge_scrolling_haptics_intensity_title">Intensidade tátil de rolagem das bordas</string>
+    <string name="brightness_slider_haptics_intensity_title">Intensidade tátil da barra de brilho</string>
+    <string name="volume_slider_haptics_intensity_title">Intensidade tátil do controle de volume</string>
+    <string name="qs_panel_tile_haptic_intensity_title">Intensidade tátil das configurações rápidas</string>
+    <!-- Running services - Background processes tab -->
+    <string name="background_processes_settings_title">Background processes</string>
 </resources>
